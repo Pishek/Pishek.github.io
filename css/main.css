@@ -58,6 +58,7 @@
 
 .discription_image{
     font-family: 'Chewy', cursive;
+    font-size: 30px;
 }
 
 
@@ -130,9 +131,9 @@
     
     .col-3{
     display: block;
-    padding-top: 40px;
+    padding-top: 100px;
     padding-right: 45px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     }
     
     .container{
@@ -142,8 +143,8 @@
     }
     
     .img_in_main{
-    width: 240px;
-    height: 160px;
+    width: 400px;
+    height: 300px;
     }
     
     .feed_back{
