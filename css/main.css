@@ -1,0 +1,156 @@
+/*---===HEADER===---*/
+.header{
+    background-image: url(../img/header/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header__title{
+    font-size: 140px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.href__title{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    color:antiquewhite;
+    text-shadow: #000 10px 10px 5px;
+}
+
+/*---===MAIN===---*/
+
+.main{
+    background-color: beige;
+    height:100vh;
+    
+}
+
+.poloska{
+    background-color: black;
+    height: 10px;
+}
+
+.col-3{
+    display: inline-block;
+    padding-right: 45px;
+    padding-bottom: 5px;
+
+    
+}
+
+.container{
+    text-align: center;
+    padding-top: 90px;;
+    padding-left: 45px;
+}
+
+.img_in_main{
+    width: 300px;
+    height: 220px;
+    border: 6px solid;
+    border-color: lightcoral;
+}
+
+.discription_image{
+    font-family: 'Chewy', cursive;
+}
+
+
+/*---===FOOTER===---*/
+.footer{
+    position: relative;
+    height: 150px;
+    background-color: brown
+}
+.feed_back{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    transition: 0.2s ease-out;
+    
+}
+
+.button{
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    color:white;
+}
+
+.feed_back:hover{
+    background-color: coral;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    opacity: 0.89;
+    color:coral;
+    text-shadow: black 2px 2px 4px;
+}
+
+#sign__copyright{
+    font-size: 30px;
+    position: relative;
+    bottom: -6px
+}
+
+/*---===ADAPTIVE===---*/
+
+@media only screen and (max-width:980px){
+    .header{
+        width: 100%;
+    }
+    
+    .header__title{
+        font-size: 75px;
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+
+    
+    .col-3{
+    display: block;
+    padding-top: 40px;
+    padding-right: 45px;
+    padding-bottom: 50px;
+    }
+    
+    .container{
+    text-align: center;
+    padding-top: 15px;;
+    padding-left: 45px;
+    }
+    
+    .img_in_main{
+    width: 240px;
+    height: 160px;
+    }
+    
+    .feed_back{
+    top:45px;
+    bottom: auto;
+    position: absolute;
+    right: 75px;
+    }
+    
+}

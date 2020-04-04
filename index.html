@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Something</title>
+    <!--Нормальизация стилей-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- Фаил main.css-->
+    <link rel = "stylesheet" href = "css/main.css">
+    <!--Подключим css fancybox -->
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    <!--иконкавк и прочее-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel = "stylesheet">
+    <!--Иконка сайта -->
+    <link rel ="shortcut icon" type = "image/x-icon" href = "img/favicon/favicon.ico">
+</head>
+<body>
+<!--.............................
+
+HEADER
+
+................................. -->
+<div class="header">
+    <div class="header__title">
+        <a href="#" class="href__title">Something</a>
+    </div>
+</div>
+<!--.............................
+
+MAIN
+
+................................. -->
+
+<div class="main">
+    <div class="poloska"></div>
+    <!--Работа с картинками в main -->
+    <div class="container">
+        <div class="col-3">
+            <div class="image__col-3">
+                <a data-fancybox="gallery" href="img/main/full_main/main.jpg">
+                    <img class = "img_in_main" src = "img/main/main.jpg" alt = 'изображение 1'>
+                </a>
+            <div class="discription_image">Картинка 1</div>
+            </div>
+        </div>
+        
+        <div class="col-3">
+            <div class="image__col-3">
+                <a data-fancybox="gallery" href="img/main/full_main/main.jpg">
+                    <img class = "img_in_main" src = "img/main/main.jpg" alt = 'изображение 2'>
+                </a>
+            <div class="discription_image">Картинка 2</div>
+            </div>
+        </div>
+        
+        <div class="col-3">
+            <div class="image__col-3">
+                <a data-fancybox="gallery" href="img/main/full_main/main.jpg">
+                    <img class = "img_in_main" src = "img/main/main.jpg" alt = 'изображение 3'>
+                </a>
+            <div class="discription_image">Картинка 3</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--.............................
+
+FOOTER
+
+................................. -->
+<div class="footer">
+    <div class="poloska"></div>
+    <div class="feed_back"><a href="#" class="button">Связаться со мной <i class="fa fa-vk" aria-hidden="true"></i></a></div>
+    <div class="copyright"><span id="sign__copyright">&copy;</span> Copyright <br> all right reserved</div>
+</div>
+<!-- Подключим jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<!-- Подключим fancybox -->
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+</body>
+</html>
